@@ -1,0 +1,9 @@
+#BlueJ class context
+comment0.target=QuestionDemo2
+comment0.text=This\ program\ shows\ a\ simple\ quiz\ with\ two\ choice\ questions.
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=q
+comment2.target=void\ presentQuestion(ChoiceQuestion)
+comment2.text=\ Presents\ a\ question\ to\ the\ user\ and\ checks\ the\ response.\r\n@param\ q\ the\ question
+numComments=3
