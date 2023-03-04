@@ -10,9 +10,9 @@ public class NumericQuestion extends Question {
 
     }
 
-    public void setAnswer(double correctResponse) {
+    public void setAnswer(String correctResponse) {
 
-        answer = correctResponse;
+        answer = Double.parseDouble(correctResponse);
 
     }
 

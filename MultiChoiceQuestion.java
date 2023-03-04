@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 // modify choice question to be a multi choice question
-public class MultiChoiceQuestion extends Question {
+public class MultiChoiceQuestion extends ChoiceQuestion {
     private ArrayList<String> choices;
 
     public MultiChoiceQuestion() {

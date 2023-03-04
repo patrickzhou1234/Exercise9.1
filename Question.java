@@ -45,17 +45,11 @@ public class Question {
       if (response.equals(answer)) {
          return true;
       } else {
-         int i;
          response = response.replace(" ", "");
          answer = answer.replace(" ", "");
-         boolean works = true;
-         for (i = 0; i < answer.length(); i++) {
-            if (!(Character.toUpperCase(response.charAt(i)) == answer.charAt(i)
-                  || Character.toLowerCase(response.charAt(i)) == answer.charAt(i))) {
-               works = false;
-            }
-         }
-         return works;
+         response = response.toLowerCase();
+         answer = answer.toLowerCase();
+         return response.equals(answer);
       }
    }
 

@@ -26,9 +26,14 @@ public class QuestionDemo2 {
       third.addChoice("Mr. Potato Head", false);
       third.addChoice("Slinky", false);
 
+      NumericQuestion fourth = new NumericQuestion();
+      fourth.setText("What is the square root of 100?");
+      fourth.setAnswer("10.0");
+
       presentQuestion(first, in);
       presentQuestion(second, in);
       presentQuestion(third, in);
+      presentQuestion(fourth, in);
       in.close();
    }
 
@@ -46,6 +51,12 @@ public class QuestionDemo2 {
          System.out.println(q.checkAnswer(response));
       } else if (obj instanceof MultiChoiceQuestion) {
          MultiChoiceQuestion q = (MultiChoiceQuestion) obj;
+         q.display();
+         System.out.print("Your answer: ");
+         String response = in.nextLine();
+         System.out.println(q.checkAnswer(response));
+      } else if (obj instanceof NumericQuestion) {
+         NumericQuestion q = (NumericQuestion) obj;
          q.display();
          System.out.print("Your answer: ");
          String response = in.nextLine();
