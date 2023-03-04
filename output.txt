@@ -1,0 +1,24 @@
+What was the original name of the Java language?
+1: *7
+2: Duke
+3: Oak
+4: Gosling
+Your answer: 3
+true
+In which country was the inventor of Java born?
+1: Australia
+2: Canada
+3: Denmark
+4: United States
+Your answer: 2     
+true
+What are the names of the two main characters in the movie 'Toy Story'?
+1: Woody
+2: Buzz
+3: Mr. Potato Head
+4: Slinky
+Your answer:               1              2 
+true
+What is the square root of 100?
+Your answer: 10.00001
+true
