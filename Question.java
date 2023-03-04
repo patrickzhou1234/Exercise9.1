@@ -45,10 +45,8 @@ public class Question {
       if (response.equals(answer)) {
          return true;
       } else {
-         response = response.replace(" ", "");
-         answer = answer.replace(" ", "");
-         response = response.toLowerCase();
-         answer = answer.toLowerCase();
+         response = response.replace(" ", "").toLowerCase();
+         answer = answer.replace(" ", "").toLowerCase();
          return response.equals(answer);
       }
    }
