@@ -4,7 +4,7 @@ import java.util.ArrayList;
  * A question with multiple choices.
  */
 public class ChoiceQuestion extends Question {
-   private ArrayList<String> choices;
+   ArrayList<String> choices;
 
    /**
     * Constructs a choice question with no choices.
